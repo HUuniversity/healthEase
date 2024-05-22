@@ -1,0 +1,146 @@
+﻿@model HealthEase.ViewModels.DoctorAppointmentsModel
+@{
+    ViewData["Title"] = "GetDoctorAppointments";
+};
+<section id="services" class="doctors">
+    <div class="container">
+       <br /><br /><br /><br />
+        <div class="row">
+            @* <form id="departmentForm" asp-action="GetDoctorAppointments" asp-controller="Main" asp-route-id="@Model.Doctor.DoctorId" method="post" class="col-lg-6 col-md-6"> *@
+                <div class="col-lg-8 mt-4 mt-lg-0">
+                    <div class="member d-flex align-items-start">
+                        <div class="pic"><img style="height:150px; width:150px;" src="@Model.Doctor.DoctorImage" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <input type="hidden" id="@Model.Doctor.DoctorId" name="DoctorId" value="1">
+                            <button type="submit" id="submitBtn" style="border:none;background-color:transparent"> @Model.Doctor.DoctorFirstName @Model.Doctor.DoctorLastName</button>
+                            <span>@Model.Doctor.DoctorMajor</span>
+                            <p>@Model.Doctor.DoctorAcheivment</p>
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @* </form> *@
+    </div>
+    </div>
+</section>
+<!--Appointment Section-->
+
+<!-- ======= Doctors Section ======= -->
+<section id="doctors" class="doctors">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Appointments</h2>
+            <p>Choose your suitable appointment from the valid appointments bellow</p>
+        </div>
+        @* ------------*@
+@*         <div class="row">
+            @foreach (var item in Model.Appointments)
+            {
+                <form id="departmentForm" asp-action="GetDoctorAppointments" asp-controller="Main" asp-route-id="@item.DoctorId" method="post" class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <input type="hidden" id="@item.DoctorId" name="DoctorId" value="1">
+                                <button type="submit" id="submitBtn" style="border:none;background-color:transparent"> @item.AppointmentStartTime+" "+@item.AppointmentEndTime</button>
+                                <span>@item.AppointmentStartTime</span>
+                                <p>@item.AppointmentEndTime</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            }
+           
+        </div> *@
+        @* ----------- *@
+        <div class="container">
+
+            <div class="row">
+                <div class="col">
+                    <table class="table table-bordered text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">MON</th>
+                                <th scope="col">TUE</th>
+                                <th scope="col">WED</th>
+                                <th scope="col">THU</th>
+                                <th scope="col">FRI</th>
+                                <th scope="col">SAT</th>
+                                <th scope="col">SUN</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"></th>
+                                <td></td>
+                                <td></td>
+                                <td class="table-active">22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">16:00</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">17:00</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary float-end">Save</button>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            const selectedDate = document.getElementById('selectedDate');
+            const prevDayBtn = document.getElementById('prevDay');
+            const nextDayBtn = document.getElementById('nextDay');
+
+            const today = new Date();
+            let currDate = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+
+            selectedDate.textContent = currDate.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
+            prevDayBtn.addEventListener('click', () => {
+              currDate.setDate(currDate.getDate() - 1);
+              selectedDate.textContent = currDate.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+            });
+
+            nextDayBtn.addEventListener('click', () => {
+              currDate.setDate(currDate.getDate() + 1);
+              selectedDate.textContent = currDate.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+            });
+        </script>
+
+    </div>
+</section><!-- End Doctors Section -->

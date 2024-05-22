@@ -1,0 +1,111 @@
+﻿@model HealthEase.ViewModels.DepartmentModel
+@{
+    ViewData["Title"] = "GetDepartment";
+};
+<section id="services" class="services">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center" style="padding-left:10%">
+
+
+<div class="col-lg-11 col-md-6 d-flex align-items-lg-stretch mt-4">
+    <div class="icon-box" asp-actoin="ShowDepartment" style="width: 100%;">
+        <div class="icon">
+            @* @HTML.Raw(Model.Department.DepartmentImage); *@
+            @* <i class="fas fa-pills"></i> *@
+            @Html.Raw(Model.Department.DepartmentImage);
+        </div>
+        <h4><a href="">@Model.Department.DepartmentName</a></h4>
+        <p>@Model.Department.DepartmentDescription</p>
+    </div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ======= Doctors Section ======= -->
+<section id="doctors" class="doctors">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Doctors</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+
+            @* <div class="col-lg-6">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>Walter White</h4>
+                        <span>Chief Medical Officer</span>
+                        <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                        <div class="social">
+                            <a href=""><i class="ri-twitter-fill"></i></a>
+                            <a href=""><i class="ri-facebook-fill"></i></a>
+                            <a href=""><i class="ri-instagram-fill"></i></a>
+                            <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div> *@
+            @foreach (var item in Model.Doctors) {
+                <form id="departmentForm" asp-action="GetDoctorAppointments" asp-controller="Main" asp-route-id="@item.DoctorId" method="post" class="col-lg-6 col-md-6" >
+                        <div class="col-lg-11 mt-4 mt-lg-0">
+                    <div class="member d-flex align-items-start">
+                    <div class="pic"><img style="height:150px; width:150px;" src="@item.DoctorImage" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                                <input type="hidden" id="@item.DoctorId" name="DoctorId" value="1">
+                                <button type="submit" id="submitBtn" style="border:none;background-color:transparent"> @item.DoctorFirstName @item.DoctorLastName</button>
+                            <span>@item.DoctorMajor</span>
+                            <p>@item.DoctorAcheivment</p>
+                        <div class="social">
+                            <a href=""><i class="ri-twitter-fill"></i></a>
+                            <a href=""><i class="ri-facebook-fill"></i></a>
+                            <a href=""><i class="ri-instagram-fill"></i></a>
+                            <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </form>
+            }            
+@* 
+            <div class="col-lg-6 mt-4">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>William Anderson</h4>
+                        <span>Cardiology</span>
+                        <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                        <div class="social">
+                            <a href=""><i class="ri-twitter-fill"></i></a>
+                            <a href=""><i class="ri-facebook-fill"></i></a>
+                            <a href=""><i class="ri-instagram-fill"></i></a>
+                            <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>Amanda Jepson</h4>
+                        <span>Neurosurgeon</span>
+                        <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                        <div class="social">
+                            <a href=""><i class="ri-twitter-fill"></i></a>
+                            <a href=""><i class="ri-facebook-fill"></i></a>
+                            <a href=""><i class="ri-instagram-fill"></i></a>
+                            <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ *@
+        </div>
+
+    </div>
+</section><!-- End Doctors Section -->

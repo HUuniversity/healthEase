@@ -1,0 +1,57 @@
+﻿@model HealthEase.ViewModels.RegisterModel;
+@{
+    Layout = "_LayoutLogin";
+    ViewData["Title"] = "Register";
+}
+
+
+<div class="pt-4 pb-2">
+    <h5 class="card-title text-center pb-0 fs-4">Create an Account</h5>
+    <p class="text-center small">Enter your personal details to create account</p>
+</div>
+<form asp-action="Register" class="row g-3 needs-validation" novalidate="">
+    @*<div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
+    <div class="col-12">
+        <label asp-for="PatientName" class="form-label">Your Name</label>
+        <input asp-for="PatientName" type="text" name="PatientName" class="form-control" id="PatientName" required="">
+
+    </div>
+    <div class="col-12">
+        <label asp-for="PatientNId" class="form-label">Your National ID</label>
+        <input asp-for="PatientNId" type="number" name="PatientNId" class="form-control" id="PatientNId" required="">
+
+    </div>
+    <div class="col-12">
+        <label asp-for="Email" class="form-label">Your Email</label>
+        <input asp-for="Email" type="email" name="Email" class="form-control" id="Email" required="">
+
+    </div>
+   
+    <div class="col-12">
+        <label asp-for="Password" class="form-label">Your Password</label>
+        <input asp-for="Password" type="text" name="Password" class="form-control" id="Password" required="">
+
+    </div>
+    <div class="col-12">
+        <label asp-for="ConfirmPassword" class="form-label">Confirm Your Password</label>
+        <input asp-for="ConfirmPassword" type="text" name="ConfirmPassword" class="form-control" id="ConfirmPassword" required="">
+
+    </div>
+
+
+
+    <div class="col-12">
+        <div class="form-check">
+            <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required="">
+            <label class="form-check-label" for="acceptTerms">I agree and accept the <a href="#">terms and conditions</a></label>
+            <div class="invalid-feedback">You must agree before submitting.</div>
+        </div>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary w-100" type="submit">Create Account</button>
+    </div>
+    <div class="col-12">
+        <p class="small mb-0">Already have an account? <a asp-action="Login">Log in</a></p>
+    </div>
+
+</form>

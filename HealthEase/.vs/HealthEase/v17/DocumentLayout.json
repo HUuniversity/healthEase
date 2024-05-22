@@ -1,0 +1,658 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\viewmodels\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\viewmodels\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\viewmodels\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\viewmodels\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\views\\main\\getdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\views\\main\\getdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\views\\main\\getdoctorappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\views\\main\\getdoctorappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\viewmodels\\doctorappointmentsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\viewmodels\\doctorappointmentsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\viewmodels\\departmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\viewmodels\\departmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\repositories\\dbdoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\repositories\\dbdoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\repositories\\dbappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\repositories\\dbappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\repositories\\dbdepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\repositories\\dbdepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\repositories\\dbadminnrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\repositories\\dbadminnrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\adminn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\adminn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\viewmodels\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\viewmodels\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|c:\\users\\lenovo\\source\\repos\\healthease\\healthease\\models\\repositories\\dbpatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A248E34-4008-4B88-AFB4-7E8024D787B7}|HealthEase\\HealthEase.csproj|solutionrelative:healthease\\models\\repositories\\dbpatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "HealthEase\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "HealthEase\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAUwCQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T22:04:00.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\ViewModels\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "HealthEase\\ViewModels\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\ViewModels\\RegisterModel.cs",
+              "RelativeToolTip": "HealthEase\\ViewModels\\RegisterModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:18:25.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "HealthEase\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAzwG4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T20:54:30.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\AppUser.cs",
+              "RelativeToolTip": "HealthEase\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T15:20:44.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Program.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Program.cs",
+              "RelativeToolTip": "HealthEase\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowCMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T15:48:36.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Controllers\\MainController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Controllers\\MainController.cs",
+              "RelativeToolTip": "HealthEase\\Controllers\\MainController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T17:38:57.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\ViewModels\\LoginModel.cs",
+              "RelativeDocumentMoniker": "HealthEase\\ViewModels\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\ViewModels\\LoginModel.cs",
+              "RelativeToolTip": "HealthEase\\ViewModels\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:47:34.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Patient.cs",
+              "RelativeToolTip": "HealthEase\\Models\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T11:15:59.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "HealthEase\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "HealthEase\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T21:22:29.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HealthEase\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:36:22.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "HealthEase\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "HealthEase\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T21:23:56.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Main\\Index.cshtml",
+              "RelativeDocumentMoniker": "HealthEase\\Views\\Main\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Main\\Index.cshtml",
+              "RelativeToolTip": "HealthEase\\Views\\Main\\Index.cshtml",
+              "ViewState": "AQIAAIkAAAAAAAAAAADwv5EAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T17:40:42.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetDepartment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Main\\GetDepartment.cshtml",
+              "RelativeDocumentMoniker": "HealthEase\\Views\\Main\\GetDepartment.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Main\\GetDepartment.cshtml",
+              "RelativeToolTip": "HealthEase\\Views\\Main\\GetDepartment.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T23:30:17.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\appsettings.json",
+              "RelativeDocumentMoniker": "HealthEase\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\appsettings.json",
+              "RelativeToolTip": "HealthEase\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-10T15:38:49.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Doctor.cs",
+              "RelativeToolTip": "HealthEase\\Models\\Doctor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:20:31.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "HealthEase\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "HealthEase\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-18T18:09:40.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoctorAppointmentsModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\ViewModels\\DoctorAppointmentsModel.cs",
+              "RelativeDocumentMoniker": "HealthEase\\ViewModels\\DoctorAppointmentsModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\ViewModels\\DoctorAppointmentsModel.cs",
+              "RelativeToolTip": "HealthEase\\ViewModels\\DoctorAppointmentsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T18:14:36.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetDoctorAppointments.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Main\\GetDoctorAppointments.cshtml",
+              "RelativeDocumentMoniker": "HealthEase\\Views\\Main\\GetDoctorAppointments.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Main\\GetDoctorAppointments.cshtml",
+              "RelativeToolTip": "HealthEase\\Views\\Main\\GetDoctorAppointments.cshtml",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAIwHkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:12:24.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HealthEase\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HealthEase\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T16:49:20.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DepartmentModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\ViewModels\\DepartmentModel.cs",
+              "RelativeDocumentMoniker": "HealthEase\\ViewModels\\DepartmentModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\ViewModels\\DepartmentModel.cs",
+              "RelativeToolTip": "HealthEase\\ViewModels\\DepartmentModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:06:04.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Appointment.cs",
+              "RelativeToolTip": "HealthEase\\Models\\Appointment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T12:34:50.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\UserType.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\UserType.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\UserType.cs",
+              "RelativeToolTip": "HealthEase\\Models\\UserType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T15:24:04.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "HealthEase\\Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T11:40:24.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Department.cs",
+              "RelativeToolTip": "HealthEase\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T12:36:02.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "HealthEase\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T13:14:56.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "HealthEase\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:32:01.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DbDoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\DbDoctorRepository.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\Repositories\\DbDoctorRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\DbDoctorRepository.cs",
+              "RelativeToolTip": "HealthEase\\Models\\Repositories\\DbDoctorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:25:54.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DbAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\DbAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\Repositories\\DbAppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\DbAppointmentRepository.cs",
+              "RelativeToolTip": "HealthEase\\Models\\Repositories\\DbAppointmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:27:24.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DbDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\DbDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\Repositories\\DbDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\DbDepartmentRepository.cs",
+              "RelativeToolTip": "HealthEase\\Models\\Repositories\\DbDepartmentRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAIBJwDUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:30:28.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DbAdminnRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\DbAdminnRepository.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\Repositories\\DbAdminnRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\DbAdminnRepository.cs",
+              "RelativeToolTip": "HealthEase\\Models\\Repositories\\DbAdminnRepository.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAADwvykAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:37.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Adminn.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Adminn.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\Adminn.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Adminn.cs",
+              "RelativeToolTip": "HealthEase\\Models\\Adminn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T11:12:19.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "HealthEase\\Models\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T15:54:34.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "HealthEase\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "HealthEase\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T18:48:12.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HealthEase\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HealthEase\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T16:48:39.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HomeModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\ViewModels\\HomeModel.cs",
+              "RelativeDocumentMoniker": "HealthEase\\ViewModels\\HomeModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\ViewModels\\HomeModel.cs",
+              "RelativeToolTip": "HealthEase\\ViewModels\\HomeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:44:59.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "HealthEase\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "HealthEase\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T17:19:09.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "HealthEase\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "HealthEase\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T18:48:24.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DbPatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\DbPatientRepository.cs",
+              "RelativeDocumentMoniker": "HealthEase\\Models\\Repositories\\DbPatientRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HealthEase\\HealthEase\\Models\\Repositories\\DbPatientRepository.cs",
+              "RelativeToolTip": "HealthEase\\Models\\Repositories\\DbPatientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:32:07.089Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
